@@ -317,7 +317,7 @@ const App = () => {
         const url = pattern.url.replace('$URL', inputLink);
         const name = pattern.name;
         try {
-          const response = await axios.get('https://cryptic-hunt-backlinks-server.vercel.app//check-url', { params: { url, name } });
+          const response = await axios.get('https://cryptic-hunt-backlinks-server.vercel.app/check-url', { params: { url, name } });
           if (response.data.exists) {
             validResults.push({
               name: pattern.name,
