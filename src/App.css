@@ -1,0 +1,150 @@
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+  padding: 2rem 0;
+  width: 100%;
+  min-width: fit-content;
+}
+
+h1 {
+  font-size: 2.25rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Input styling */
+.input-container {
+  margin-bottom: 2rem;
+  width: 100%;
+  min-width: 500px;
+}
+
+label {
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+input[type="text"] {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  width: 90%;
+  padding: 1rem 0;
+  transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
+}
+
+/* Button styling */
+button {
+  display: block;
+  width: 60%;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: background-color 0.2s ease;
+ 
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.4);
+}
+
+/* Results styling */
+.results {
+  margin-top: 2rem;
+}
+
+.results h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.25rem;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.results li {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  transition: background-color 0.2s ease;
+  width: 60%;
+}
+
+.results li a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.results li:hover {
+  background-color: #eef2ff;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  label {
+    font-size: 1.1rem;
+  }
+
+  input[type="text"],
+  button {
+    font-size: 1.1rem;
+  }
+
+  .results h2 {
+    font-size: 1.5rem;
+  }
+}
