@@ -25,7 +25,7 @@
     "server": "node server/server.js",
     "dev": "npm start"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "https://cryptic-hunt-backlinks-server.vercel.app/",
   "eslintConfig": {
     "extends": [
       "react-app",
