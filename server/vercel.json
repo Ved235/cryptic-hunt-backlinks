@@ -1,1 +1,1 @@
-{ "version": 2,"routes": [{ "src": "/(.*)", "destination": "/" }] }
+{ "version": 2,"routes": [{ "src": "/(.*)", "dest": "/" }] }
