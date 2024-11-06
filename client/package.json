@@ -22,10 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node server/server.js",
     "dev": "npm start"
   },
-  "proxy": "https://cryptic-hunt-backlinks-server.vercel.app/",
   "eslintConfig": {
     "extends": [
       "react-app",

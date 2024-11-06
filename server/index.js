@@ -2,10 +2,10 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-
+const cors = require('cors');
 // Middleware to parse JSON request bodies
 app.use(express.json());
-
+app.use(cors());
 // API endpoint to check if URL exists
 app.get('/check-url', async (req, res) => {
   const { url, name } = req.query;
