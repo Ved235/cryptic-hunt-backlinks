@@ -9,6 +9,24 @@ const App = () => {
  
   const patterns = [
     {
+      "name": "GitHub Repository",
+      "regex": "^[a-zA-Z0-9_-]{1,39}\\/[a-zA-Z0-9_-]{1,100}$",
+      "type": "GitHub Repository",
+      "url": "https://github.com/$URL"
+    },
+    {
+      "name": "GitHub User Profile",
+      "regex": "^[a-zA-Z0-9_-]{1,39}$",
+      "type": "GitHub User Profile",
+      "url": "https://github.com/$URL"
+    },
+    {
+      "name": "Twitch Channel",
+      "regex": "^[a-zA-Z0-9_]{3,25}$",
+      "type": "Twitch Profile",
+      "url": "https://www.twitch.tv/$URL"
+    },
+    {
       "name": "ControlC Pastebin",
       "regex": "^[a-z0-9]{8}$",
       "type": "controlc paste",
