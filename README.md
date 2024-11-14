@@ -1,8 +1,12 @@
 
 # Backlink Analyzer
 
-A React and Express-based application designed specifically for cryptic hunters who frequently need to identify and verify backlinks. This tool helps users recognize URLs from various platforms, such as social media, file-sharing, and document sites, by matching them to known patterns. It aims to streamline the process of quickly identifying the source of a backlink.
+A React and Express-based application designed specifically for cryptic hunters who frequently need to identify and verify backlinks. This tool helps users recognize URLs from various platforms, such as social media, file-sharing, and document sites, by matching them to known patterns. It aims to streamline the process of quickly identifying the source of a backlink. This also works for **discord invites** (checks if they are valid or not also!) and a lot more websites.
 
+## Demo
+![image](https://github.com/user-attachments/assets/9d8c4b70-c56e-4c84-be8c-ffe35658ec2b)
+
+lRCF2c5MUsI is the backlink for the video https://www.youtube.com/watch?v=lRCF2c5MUsI, entering lRCF2c5MUsI will automatically go through several websites and find the best matches. 
 ## Features
 
 - **Link Pattern Matching**: Detects links from various services (e.g., Pastebin, YouTube, Google Drive).
